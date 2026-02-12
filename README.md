@@ -378,6 +378,15 @@ docker network inspect scan-net
 
 # Running Scans
 
+Direct Docker Usage:
+- Sample Run to Test Nmap
+```
+docker run --rm \
+  --network scan-net \
+  pentest-nmap \
+  -sV -Pn scanme.nmap.org
+```
+
 Basic usage:
 ```
 python scan_engine/main.py <tool> <target> [flags]
