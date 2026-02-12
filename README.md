@@ -8,7 +8,7 @@ The Backend is CLI-based, while the Frontend provides a user interface.
 ---
 
 # Project Structure
-
+```
 CyberShield/
 │
 │
@@ -119,7 +119,7 @@ CyberShield/
         └── test/
             ├── example.test.ts
             └── setup.ts
-
+```
 ---
 
 # What Each File Does
