@@ -1,0 +1,20 @@
+pentest-platform/
+│
+├── tools/
+│   ├── nmap/
+│   │   └── tool.yaml
+│   ├── gobuster/
+│   │   └── tool.yaml
+│   └── ...
+│
+├── scan_engine/
+│   ├── main.py
+│   ├── tool_loader.py
+│   ├── validator.py
+│   ├── runner.py
+│   ├── models.py
+│   └── parser_nmap.py
+│
+├── artifacts/
+│
+└── requirements.txt

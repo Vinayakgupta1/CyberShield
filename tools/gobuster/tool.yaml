@@ -1,0 +1,16 @@
+name: gobuster
+image: pentest-gobuster
+timeout: 300
+memory: 512m
+cpu: 0.5
+allowed_flags:
+  - "dir"
+  - "dns"
+  - "-u"
+  - "-w"
+  - "-t"
+  - "-x"
+  - "-q"
+  - "-o"
+output:
+  format: txt

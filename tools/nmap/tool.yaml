@@ -1,0 +1,12 @@
+name: nmap
+image: pentest-nmap
+timeout: 300
+memory: 512m
+cpu: 0.5
+allowed_flags:
+  - "-sV"
+  - "-A"
+  - "-Pn"
+  - "-p"
+output:
+  format: xml

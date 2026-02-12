@@ -1,0 +1,17 @@
+name: sqlmap
+image: pentest-sqlmap
+timeout: 600
+memory: 1024m
+cpu: 1.0
+allowed_flags:
+  - "-u"
+  - "--dbs"
+  - "--tables"
+  - "--columns"
+  - "--dump"
+  - "--batch"
+  - "--level"
+  - "--risk"
+  - "--output-dir"
+output:
+  format: txt

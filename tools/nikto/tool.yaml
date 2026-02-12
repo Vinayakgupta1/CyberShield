@@ -1,0 +1,14 @@
+name: nikto
+image: pentest-nikto
+timeout: 300
+memory: 512m
+cpu: 0.5
+allowed_flags:
+  - "-h"
+  - "-p"
+  - "-ssl"
+  - "-Tuning"
+  - "-Format"
+  - "-output"
+output:
+  format: xml
