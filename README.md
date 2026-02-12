@@ -352,11 +352,12 @@ pip install -r requirements.txt
 ## 4. Build Tool Containers
 
 From project root:
-
-docker build -t pentest-nmap tools/nmap
-docker build -t pentest-gobuster tools/gobuster
-docker build -t pentest-nikto tools/nikto
-docker build -t pentest-sqlmap tools/sqlmap
+```
+- docker build -t pentest-nmap tools/nmap
+- docker build -t pentest-gobuster tools/gobuster
+- docker build -t pentest-nikto tools/nikto
+- docker build -t pentest-sqlmap tools/sqlmap
+```
 
 Verify:
 
