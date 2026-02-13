@@ -323,10 +323,10 @@ Example: python scan_engine/main.py nmap scanme.nmap.org -sV -Pn
 # Setup Instructions
 
 ## 1. Install Ubuntu Dependencies
-
+```
 sudo apt update
 sudo apt install -y python3 python3-pip docker.io
-
+```
 ---
 
 ## 2. Enable Docker
