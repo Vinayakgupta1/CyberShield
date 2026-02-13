@@ -333,9 +333,9 @@ sudo apt install -y python3 python3-pip docker.io
 ```
 sudo systemctl enable docker
 sudo systemctl start docker
-
+```
 Add current user to docker group:
-
+```
 sudo usermod -aG docker $USER
 newgrp docker
 ```
